@@ -1,2 +1,15 @@
-package PACKAGE_NAME;public class Airplane {
+
+public class Airplane {
+
+    public class Wing {
+        public double weight;
+
+        public double getWeight() {
+            return weight;
+        }
+
+        public Wing(double weight) {
+            this.weight = weight;
+        }
+    }
 }
